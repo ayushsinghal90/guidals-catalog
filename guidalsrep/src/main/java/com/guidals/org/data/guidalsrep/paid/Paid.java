@@ -19,7 +19,9 @@ public class Paid {
 	private String crename;
 	private String descri;
 	private String url;
+	private String lecimg;
 	private String chnlan;
+	
 	
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JsonIgnore
@@ -43,6 +45,10 @@ public class Paid {
 
 	public String getUrl() {
 		return url;
+	}
+
+	public String getLecimg() {
+		return lecimg;
 	}
 
 	public String getChnlan() {
