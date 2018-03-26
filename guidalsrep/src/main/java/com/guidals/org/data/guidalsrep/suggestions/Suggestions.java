@@ -19,27 +19,12 @@ public class Suggestions {
 	public Suggestions() {
 		super();
 	}
-
-	public Integer getId() {
-		return id;
-	}
-
 	public void setId(Integer id) {
 		this.id = id;
 	}
-
-	public String getName() {
-		return name;
-	}
-
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public String getEmail() {
-		return email;
-	}
-
 	public void setEmail(String email) {
 		this.email = email;
 	}
@@ -51,19 +36,9 @@ public class Suggestions {
 	public void setNewsteler(boolean newsteler) {
 		this.newsteler = newsteler;
 	}
-
-	public String getAbout() {
-		return about;
-	}
-
 	public void setAbout(String about) {
 		this.about = about;
 	}
-
-	public String getDescrip() {
-		return descrip;
-	}
-
 	public void setDescrip(String descrip) {
 		this.descrip = descrip;
 	}
